@@ -9,25 +9,71 @@
 
 
     <script>
-let char = 'abcdefghijklmnopqrstuvwxyz';
-let charUpp = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-let num = '0123456789';
-let sym = '!@#$%^&*=-_';
+     
+     function quote (){
+  let l = prompt ('how long do you want password')
+  if (l >= 8 && l <= 128)
+    alert('you chose ' + l + ' as length')
+  
+ 
+  let upper = confirm ('Upper true?')
+      alert (upper)
+  
+  
+  let lower = confirm ('Lower confirm>')
+  alert (lower)
 
-
-
-function quote(){
-    let nL = prompt('how many characters do you want')
-    if (nL >= 8 && nL >= 128){
-alert ('you chose ' + nL)
-
-    }
-    
-    
-}
-
+  let symbol = confirm ('Symbol confirm>')
+  alert (symbol)
+ 
 
     </script>
     
 </body>
 </html>
+
+
+
+    
+  
+function password(l,characters){
+		let pwd = '';
+    for(let i = 0; i<l; i++){
+    		pwd += characters.charAt(Math.floor(Math.random() * characters.length));
+    }
+    return pwd;
+}
+
+let characters = ('char', 'charUpp')
+alert(password(7, characters))
+
+
+let characters = char;
+if (upper)
+
+
+
+
+
+
+
+function quote (){
+  let l = prompt ('how long do you want password')
+  if (l >= 8 && l <= 128)
+    alert('you chose ' + l + ' as length')
+  
+  
+  let upper = confirm ('Upper true?')
+      alert (upper)
+  
+ 
+  let lower = confirm ('Lower confirm>')
+  alert (lower)
+
+  let symbol = confirm ('Symbol confirm>')
+  alert (symbol)
+  
+
+if(upper === upper){
+  characters += (num) : '':
+}
