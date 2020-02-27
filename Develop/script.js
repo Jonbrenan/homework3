@@ -18,9 +18,10 @@ function generatePassword (){
   length = g
   lower = 'abcdefghijklmnopqrstuvwxyz'
   upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+  bibby = 100
   pass = "";
-  for (i=0; i<length;i++){
-      pass += lower.charAt(Math.floor(Math.random() * length));
+  for (let i=0 ; i < length/2; i++) {
+      pass += lower.charAt(Math.floor(Math.random() * lower.length)) + upper.charAt(Math.floor(Math.random() * upper.length))
       
 
   console.log(pass)
