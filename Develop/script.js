@@ -12,18 +12,24 @@ var sym = '!@#$%^&*=-_';
 // Assignment Code
 let generateBtn = document.querySelector("#generate");
 
-function generatePassword(){
-  let G = prompt ('How long')
-  if(G >= 8 && G <=128)
-  alert(G)
-  let length = G,
-      charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
-      retVal = "";
-  for (var i = 0, n = charset.length; i < length; ++i) {
-      retVal += charset.charAt(Math.floor(Math.random() * n));
+function generatePassword (){
+  let g = prompt('how long bb>')
+  alert (g)
+  length = g
+  lower = 'abcdefghijklmnopqrstuvwxyz'
+  upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+  pass = "";
+  for (i=0; i<length;i++){
+      pass += lower.charAt(Math.floor(Math.random() * length));
+      
+
+  console.log(pass)
   }
-  return retVal;
+  return pass
+
 }
+
+password()
 function writePassword() {
   let password = generatePassword();
   let passwordText = document.querySelector("#password");
