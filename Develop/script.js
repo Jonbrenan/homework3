@@ -10,12 +10,10 @@
 let generateBtn = document.querySelector("#generate");
 
 function generatePassword (){
-  let g = prompt('how long bb>')
+  let g = prompt('choose a number between 8 and 128 for the length of your password. If its not between these numbers you are evil and should never use a computer again')
   if (g >= 8 && g <= 128){
     alert (g)
-  }else alert ('try again, dumbass')
-  
-  length = g
+    length = g
   lower = 'abcdefghijklmnopqrstuvwxyz'
   upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
   number = '0123456789'
@@ -91,6 +89,9 @@ function generatePassword (){
     }
     return pass
   }
+  }else alert ('YOU ABSOLUTE EVIL SON OF A GUN!')
+  
+  
   
   }
 
