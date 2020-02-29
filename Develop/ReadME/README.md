@@ -13,6 +13,13 @@ True/False questions, specifically if the user wants their code to include lower
 numbers and finally symbols. Depending on how the user answers these questions dictates what type of password is 
 generated.
 
+![This is what the user will see when they open the website!](defaultpage.jpg)
+
+![Page will prompt user for inupts](pass.jpg)
+
+![what the user will see when everything has been inputed](foundpass.jpg)
+
+
 Inside the code itself, it uses a prompt to get the length of the password from the user, and uses various confirm commands 
 in conjunction with various if and else statements to determine what type of characters the user wants.
 
@@ -32,7 +39,7 @@ HOW TO GET THIS RUNNING!
 
 To get this code working, go to github and clone the repo. After that you can open the code through a default browser to get it up and running, or go to the link provided at the end of this Readme where it will be live.
 
-![THIS IS THE TEXT FOR AN IMAGE LOLOLOLOLOL!](1.jpg)
+
 
 
 
