@@ -40,7 +40,7 @@ HOW TO GET THIS RUNNING!
 To get this code working, go to github and clone the repo. After that you can open the code through a default browser to get it up and running, or go to the link provided at the end of this Readme where it will be live.
 
 
-
+link to page:https://jonbrenan.github.io/homework3/.
 
 
 LICENSE
